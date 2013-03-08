@@ -1,0 +1,214 @@
+
+@font-face {
+  font-family: "SSStandard";
+  src: url('ss-standard.eot');
+  src: url('ss-standard.eot?#iefix') format('embedded-opentype'), 
+       url('ss-standard.woff') format('woff'), 
+       url('ss-standard.ttf')  format('truetype'),
+       url('ss-standard.svg#SSStandard') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SSSocial";
+  src: url('ss-social-regular.eot');
+  src: url('ss-social-regular.eot?#iefix') format('embedded-opentype'),
+       url('ss-social-regular.woff') format('woff'),
+       url('ss-social-regular.ttf') format('truetype'),
+       url('ss-social-regular.svg#SSSocialRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#circlecircus {
+	padding-right: 0;
+	display:block;
+	width: 940px;
+	margin: 20px auto 60px auto;
+}
+
+
+nav {
+	color: navy;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #ECF0F1;
+}
+
+nav div {
+	position: relative;
+}
+
+nav li {
+	display: inline;
+	margin: 0 90px;
+	font-family:Helvetica;
+	font-size: 25px;
+	text-decoration: none;
+	color: #1ABC9C;
+}
+
+body {
+	font-family: 'Lobster', cursive;
+	background-color: #2c3E50;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  -webkit-text-shadow: 0px 1px 1px #4e5f73, 0px -1px 1px #1c0c20;
+  -moz-text-shadow: 0px 1px 1px #4e5f73, 0px -1px 1px #1c0c20;
+  text-shadow: 0px 1px 1px #4e5f73, 0px -1px 1px #1c0c20;
+  color: #1b2e40;
+  font-size: 140px;
+  text-align: center;
+}
+
+#circle1, #circle2, #circle3, #circle4, #circle5 {
+	display: block;
+	margin: 15px;
+    height: 140px;
+    width:140px;
+    border-radius:100%;
+    float: left;
+}
+
+/*a #circlesolo6 {
+	display: block;
+	margin: 15px;
+    height: 140px;
+    width:140px;
+    border-radius:100%;
+    float: left;
+	margin: auto;
+	border: 9px solid #2980B9;
+	background-color: #2980B9;
+	color: #2980B9;
+}*/	
+
+a #circle2 {
+	margin-top: 200px;
+}
+
+a #circle4 {
+		margin-top: 200px;
+	}
+
+
+#circle1 {
+	border: 9px solid #1ABC9C;
+	background-color: #1ABC9C;
+	color: #1ABC9C;
+}
+
+#circle5 {
+	border: 9px solid #E74C3C;
+	background-color: #E74C3C;
+	color: #E74C3C;	
+}
+
+#circle3 {
+	border: 9px solid #9B59B6;
+	background-color: #9B59B6;	
+}
+
+#circle2 {
+	border: 9px solid #E67E22;
+	background-color: #E67E22;	
+}
+
+#circle4 {
+	border: 9px solid #2ECC71;
+	background-color: #2ECC71;	
+}
+
+#circlecircus a #circle1:hover, #circle2:hover, #circle3:hover, #circle4:hover, #circle5:hover {
+	background-color: #ECF0F1;
+	color: #2C3E50;
+}
+
+.clear {
+	clear:both;
+}
+
+/*a:visited {
+	text-decoration: none;
+}*/
+
+.ss.twitter {
+	font-size:90px;
+	color:#E67E22;
+	text-align: center;
+	margin-top: 15px; 
+}
+
+a .ss.twitter:hover {
+	background-color: none;
+	color: #2C3E50;
+}
+
+.ss.octocat {
+	font-size:90px;
+	color:#E74C3C;
+	text-align: center;
+	margin-top: 15px; 
+	text-decoration: none;
+}
+
+a .ss.octocat:hover {
+	background-color: none;
+	color: #2C3E50;
+}
+
+.ss-mail {
+	font-size:90px;
+	color:#2ECC71;
+	text-align: center;
+	margin-top: 15px; 
+}
+
+a .ss-mail:hover {
+	background-color: none;
+	color: #2C3E50;
+}
+
+.ss-list {
+	font-size:85px;
+	color:#9B59B6;
+	text-align: center;
+	margin-top: 20px; 
+}
+
+a .ss-list:hover {
+	background-color: none;
+	color: #2C3E50;
+}
+
+.ss-heart {
+	font-size:90px;
+	color:#1ABC9C;
+	text-align: center;
+	margin-top: 20px; 
+}
+
+a .ss-heart:hover {
+	background-color: none;
+	color: #2C3E50;
+}
+
+.ss {
+	font-family: SSStandard, SSSocial;
+}
+
+a:link {
+	text-decoration:none;
+	color: #2C3E50;
+}
+
+li a:visited {
+	color: #2C3E50;
+}
+/* NAV HOVER */
